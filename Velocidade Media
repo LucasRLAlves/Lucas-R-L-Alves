@@ -1,0 +1,14 @@
+ Teste de velocidade media.
+ 
+ <meta charset="UTF-8">
+ 
+ <script>
+
+var dis, tempo, media
+dis = prompt("Informe a distância percorrida em metros:");
+tempo = prompt("Informe o tempo decorrido em segundos:");
+media = dis/tempo
+document.write("A velocidade média foi de: " + media.toFixed(2) + "m/s");
+
+
+ </script>

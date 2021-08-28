@@ -1,0 +1,16 @@
+<meta charset = "UTF-8">
+<script>
+var valor1, valor2, res;
+valor1 = parseFloat(prompt("Informe o primeiro valor:"));
+valor2 = Number(prompt("Informe o segundo valor:"));
+res = valor1 + valor2;
+document.write("Soma: "+res+"<br>");
+res = valor1 - valor2;
+document.write("Subtração: "+res+"<br>");
+res = valor1 * valor2;
+document.write("Multiplicação: "+res+"<br>");
+if (valor2 != 0) {
+	res = valor1/valor2;
+	document.write("Divisão: "+res);
+}
+</script>

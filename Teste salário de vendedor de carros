@@ -1,0 +1,13 @@
+<meta charset="UTF-8">
+
+<script>
+
+var salarioFixo, numeroCarrosVendidos, valorTotalVendas, comissaoPorCarro
+
+salarioFixo = Number(prompt("Insira o salário fixo em reais do venderdor:"))
+numeroCarrosVendidos = Number(prompt("Insira o número de carros vendidos:"));
+valorTotalVendas = Number(prompt("Insira o valor total em reais de suas vendas:"));
+comissaoPorCarro = Number(prompt("Insira o valor da comissão em reais por carro vendido"));
+
+document.write("O salário final do vendedor em reais é: " + (salarioFixo + (comissaoPorCarro*numeroCarrosVendidos) + (valorTotalVendas*0.05)));
+</script>

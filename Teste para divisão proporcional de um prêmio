@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+
+<script>
+var premio, p1, p2, p3, pr1, pr2, pr3;
+premio = Number(prompt("Informe o prêmiio da competição:"));
+p1 = Number(prompt("Informe a pontuação do primeiro lugar:"));
+p2 = Number(prompt("Informe a pontuação do segundo lugar:"));
+p3 = Number(prompt("Informe a pontuação do terceiro lugar:"));
+pr1 = premio*p1/(p1+p2+p3);
+pr2 = premio*p2/(p1+p2+p3);
+pr3 = premio*p3/(p1+p2+p3);
+document.write("Prêmio do primeiro lugar em reais:" + pr1.toFixed(2)+"<br>");
+document.write("Prêmio do segundo lugar em reais:" + pr2.toFixed(2)+"<br>");
+document.write("Prêmio do terceiro lugar em reais:" + pr3.toFixed(2)+"<br>");
+</script>

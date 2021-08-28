@@ -1,0 +1,27 @@
+ <meta charset="UTF-8">
+
+<script>
+
+var pulaLinha = function() {
+document.write("<br>");
+}
+
+var mostra = function(frase) {
+document.write(frase);
+
+
+pulaLinha();
+};
+
+
+var quilowatt, salarioMin
+
+salarioMin = prompt("Informe o salário mínimo em reais:");
+quilowatt = prompt("Informe a quantidade de quilowatts consumidos:");
+valorquilowatt = (salarioMin/8);
+
+mostra("O valor do quilowatt em reais é: " + valorquilowatt);
+mostra("O valor a ser pago em reais é: " +  quilowatt*valorquilowatt);
+mostra("O valor com desconto de 15% é: " + (quilowatt*valorquilowatt)*0.15);
+
+</script>
